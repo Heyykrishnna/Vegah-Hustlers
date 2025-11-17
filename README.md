@@ -103,7 +103,7 @@ Then deploy the contents of the `/dist` folder.
 
 For inquiries or collaborations, reach out via:  
 📧 **Email:** [yatharth.k25530@nst.rishihood.edu.in]  
-🌐 **Website / Portfolio:** [[yourwebsite.com](https://hustlers-vegah.vercel.app/)]  
+🌐 **Website / Portfolio:** [https://hustlers-vegah.vercel.app/]  
 
 ---
 
