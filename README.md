@@ -32,11 +32,9 @@ We aim to build a solution that not only meets the problem statement but also cr
 
 Our project is built using the following technologies:
 
-- **Frontend:** React + Vite + TypeScript  
-- **UI Components:** shadcn-ui + Tailwind CSS  
-- **Backend:** Node.js / Express (if applicable)  
-- **Database:** MongoDB / Firebase (if applicable)  
-- **Version Control:** Git + GitHub  
+- **Frontend:** React + Vite + TypeScript + Next.Js 
+- **UI Components:** shadcn-ui + Tailwind CSS + GSAP
+- **Version Control:** Git + GitHub + Vercel
 
 ---
 
