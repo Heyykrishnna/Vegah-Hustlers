@@ -102,8 +102,8 @@ Then deploy the contents of the `/dist` folder.
 ## 💬 Contact Us
 
 For inquiries or collaborations, reach out via:  
-📧 **Email:** [yourteamemail@example.com]  
-🌐 **Website / Portfolio:** [yourwebsite.com]  
+📧 **Email:** [yatharth.k25530@nst.rishihood.edu.in]  
+🌐 **Website / Portfolio:** [[yourwebsite.com](https://hustlers-vegah.vercel.app/)]  
 
 ---
 
