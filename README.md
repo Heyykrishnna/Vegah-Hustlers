@@ -50,7 +50,7 @@ You can install Node.js easily using [nvm](https://github.com/nvm-sh/nvm#install
 
 ```bash
 # Step 1: Clone this repository
-git clone <YOUR_REPOSITORY_URL>
+git clone [https://github.com/Heyykrishnna/Vegah-Hustlers.git]
 
 # Step 2: Navigate to the project directory
 cd hustlers
@@ -59,7 +59,7 @@ cd hustlers
 npm install
 
 # Step 4: Start the development server
-npm run dev
+npm run dev or npx vite
 ```
 
 Once started, open **http://localhost:5173** in your browser to view the app.
