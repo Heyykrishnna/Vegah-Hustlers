@@ -25,7 +25,7 @@ export const Navbar = () => {
           {/* Desktop Menu */}
           <div className="hidden md:flex items-center gap-8">
             <button
-              onClick={() => scrollToSection("about")}
+              onClick={() => window.location.href = "/about"}
               className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors uppercase tracking-wider"
             >
               About
