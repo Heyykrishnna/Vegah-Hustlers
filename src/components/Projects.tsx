@@ -17,6 +17,15 @@ const projects = [
     stats: "10K+ users • 95% satisfaction",
   },
   {
+    title: "Quantum Query",
+    category: "Interview Prep / AI",
+    description: "An AI-powered platform designed to supercharge your interview preparation, helping you crack top companies with expert guidance from over 100+ seasoned mentors.",
+    tech: ["React", "TypeScript", "API Fetching", "AI - Gemini", "Supabase","Next.js","GSAP", "DOM", "Talwind CSS"],
+    year: "2025",
+    demo: "https://quantumquery.vercel.app/",
+    stats: "100+ mentors • 250+ Live users",
+  },
+  {
     title: "OpenFuse",
     category: "AI / Open Source",
     description: "Open-source contribution to a decentralized voting system on Ethereum, designed to enhance transparency and security in elections. This project helps the community explore and audit blockchain-based voting solutions, and includes AI-powered tools for discovering and analyzing relevant open-source repositories.",
