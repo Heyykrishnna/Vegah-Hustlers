@@ -18,7 +18,7 @@ const projects = [
   },
   {
     title: "Quantum Query",
-    category: "Interview Prep / AI",
+    category: "AI / Interview Prep",
     description: "An AI-powered platform designed to supercharge your interview preparation, helping you crack top companies with expert guidance from over 100+ seasoned mentors.",
     tech: ["React", "TypeScript", "API Fetching", "AI - Gemini", "Supabase","Next.js","GSAP", "DOM", "Talwind CSS"],
     year: "2025",
