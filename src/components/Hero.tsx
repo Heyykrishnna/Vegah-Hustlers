@@ -63,7 +63,7 @@ export const Hero = () => {
             ref={titleRef}
             className="text-5xl md:text-7xl lg:text-8xl font-black tracking-tighter uppercase"
           >
-            <span className="block text-foreground">VEGAH</span>
+            <span className="block text-white font-white">VEGAH</span>
             <span className="block text-muted-foreground text-3xl md:text-4xl lg:text-5xl mt-4">
               / THE HUSTLERS /
             </span>
