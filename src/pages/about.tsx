@@ -9,7 +9,7 @@ gsap.registerPlugin(ScrollTrigger);
 
 export const About = () => {
   useSmoothScroll();
-  
+
   const sectionRef = useRef<HTMLElement>(null);
   const titleRef = useRef<HTMLHeadingElement>(null);
   const contentRef = useRef<HTMLDivElement>(null);
@@ -63,8 +63,17 @@ export const About = () => {
           >
             <span className="text-muted-foreground">[</span> About Us : Who We Are <span className="text-muted-foreground">]</span>
           </h2>
-          
+
+
+
           <div ref={contentRef} className="space-y-12">
+            <div className="border-l-4 border-primary pl-6 md:pl-8">
+              <p className="text-xl md:text-2xl lg:text-3xl font-bold text-foreground leading-relaxed">
+                श्री कृष्णः उवाच: <br />
+                कर्मण्येवाधिकारस्ते मा फलेषु कदाचन ।
+                मा कर्मफलहेतुर्भूर्मा ते सङ्गोऽस्त्वकर्मणि ॥
+              </p>
+            </div>
             <div className="border-l-4 border-primary pl-6 md:pl-8">
               <p className="text-xl md:text-2xl lg:text-3xl font-bold text-foreground leading-relaxed">
                 WE ARE THE AMBITIOUS ONES. THE ONES WHO DON'T SLEEP WHEN THERE'S CODE TO WRITE.
@@ -74,15 +83,15 @@ export const About = () => {
 
             <div className="border-l-4 border-primary pl-6 md:pl-8">
               <p className="text-xl md:text-2xl lg:text-3xl font-bold text-foreground leading-relaxed">
-                WE ARE FROM NEWTON SCHOOL OF TECHNOLOGY, 
-                FIRST-YEAR AND SECOND-YEAR STUDENTS WITH A TEAM OF THE TOP MINDS THE FUTURE ENGINEERS AND LEADERS 
+                WE ARE FROM NEWTON SCHOOL OF TECHNOLOGY,
+                FIRST-YEAR AND SECOND-YEAR STUDENTS WITH A TEAM OF THE TOP MINDS THE FUTURE ENGINEERS AND LEADERS
                 WHO WON’T STOP UNTIL THEY BUILD THE IMPOSSIBLE.
               </p>
             </div>
             <div className="border-l-4 border-primary pl-6 md:pl-8">
               <p className="text-xl md:text-2xl lg:text-3xl font-bold text-foreground leading-relaxed">
                 WE ARE THE HUSTLERS. WE ARE THE WARRIORS. WE ARE UNSTOPPABLE.
-                YOU MAY TRY TO MAKE US FAIL, WE MAY FALL, BUT WE WILL RISE—AND LEAP HIGHER THAN EVER. <br/>
+                YOU MAY TRY TO MAKE US FAIL, WE MAY FALL, BUT WE WILL RISE—AND LEAP HIGHER THAN EVER. <br />
                 WE ARE VEGAH. WE CODE. WE CONQUER. WE CREATE LEGACIES.
               </p>
             </div>
@@ -95,12 +104,12 @@ export const About = () => {
                 <p className="text-muted-foreground text-lg leading-relaxed">
                   To participate and win every hackathon not just at the national level, but on the international stage.
                   To prove that we are the team that never stops, never sleeps, and always carries the spirit of victory and success.
-                  To build products that solve real problems and make a lasting impact. <br/>
+                  To build products that solve real problems and make a lasting impact. <br />
                   WE ARE THE TEAM VEGAH WE ARE THE HUSTLERS AND WE WILL BE THE WINNERS.
                 </p>
               </div>
             </div>
-            
+
             <div className="grid md:grid-cols-2 gap-8 pt-8">
               <div className="bg-card border border-border p-8 rounded">
                 <h3 className="text-2xl font-bold uppercase tracking-wider mb-4 text-primary">
@@ -111,7 +120,7 @@ export const About = () => {
                   To prove that with the right team and mindset, impossible is just a starting point.
                 </p>
               </div>
-              
+
               <div className="bg-card border border-border p-8 rounded">
                 <h3 className="text-2xl font-bold uppercase tracking-wider mb-4 text-primary">
                   / THE MISSION
@@ -122,7 +131,7 @@ export const About = () => {
                 </p>
               </div>
             </div>
-            
+
             <div className="mt-12 p-8 bg-secondary/50 border border-border rounded">
               <p className="text-lg md:text-xl text-center font-medium">
                 <span className="text-primary font-bold text-2xl md:text-3xl">VEGAH</span>
