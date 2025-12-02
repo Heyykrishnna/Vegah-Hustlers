@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -37,8 +39,13 @@ All colors MUST be HSL.
     --ring: 15 90% 55%;
 
     --radius: 0.125rem;
-    
-    --liquid-gradient: linear-gradient(135deg, hsl(280, 100%, 70%) 0%, hsl(200, 100%, 50%) 50%, hsl(320, 100%, 60%) 100%);
+
+    --liquid-gradient: linear-gradient(
+      135deg,
+      hsl(280, 100%, 70%) 0%,
+      hsl(200, 100%, 50%) 50%,
+      hsl(320, 100%, 60%) 100%
+    );
 
     --sidebar-background: 0 0% 98%;
     --sidebar-foreground: 240 5.3% 26.1%;
@@ -78,7 +85,7 @@ All colors MUST be HSL.
     --border: 0 0% 15%;
     --input: 0 0% 12%;
     --ring: 15 90% 55%;
-    
+
     --sidebar-background: 240 5.9% 10%;
     --sidebar-foreground: 240 4.8% 95.9%;
     --sidebar-primary: 224.3 76.3% 48%;
@@ -97,19 +104,20 @@ All colors MUST be HSL.
 
   body {
     @apply bg-background text-foreground;
-    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI",
+      sans-serif;
     transition: background-color 0.3s ease, color 0.3s ease;
   }
-  
+
   /* Body text uses Montserrat uppercase, but not headings, bold, or already uppercase text */
   p:not(.font-bold):not(.font-semibold):not(.font-black):not(.uppercase),
   span:not(.font-bold):not(.font-semibold):not(.font-black):not(.uppercase),
   blockquote {
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Montserrat", sans-serif;
     text-transform: uppercase;
     letter-spacing: 0.025em;
   }
-  
+
   html {
     scroll-behavior: smooth;
   }
@@ -117,15 +125,20 @@ All colors MUST be HSL.
 
 @layer utilities {
   .text-gradient {
-    background: linear-gradient(135deg, hsl(var(--accent)) 0%, hsl(var(--primary)) 100%);
+    background: linear-gradient(
+      135deg,
+      hsl(var(--accent)) 0%,
+      hsl(var(--primary)) 100%
+    );
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
   }
-  
+
   .liquid-chrome {
-    background: linear-gradient(135deg, 
-      hsl(280, 100%, 70%) 0%, 
+    background: linear-gradient(
+      135deg,
+      hsl(280, 100%, 70%) 0%,
       hsl(200, 100%, 50%) 25%,
       hsl(320, 100%, 60%) 50%,
       hsl(280, 100%, 70%) 75%,
@@ -134,9 +147,10 @@ All colors MUST be HSL.
     background-size: 400% 400%;
     animation: liquidFlow 15s ease infinite;
   }
-  
+
   @keyframes liquidFlow {
-    0%, 100% {
+    0%,
+    100% {
       background-position: 0% 50%;
     }
     50% {
