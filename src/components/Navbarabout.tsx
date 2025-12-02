@@ -19,17 +19,17 @@ export const Navbar = () => {
       <div className="container mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
           <div className="text-xl md:text-2xl font-bold tracking-tight">
-            <Button
+            <a
               onClick={() => window.location.href = "/"}
-              className="text-primary-foreground text-xl font-semibold uppercase tracking-wider w-full"
+              className="text-primary-foreground text-2xl font-bold uppercase tracking-wider w-full cursor-pointer"
             >
               <span className="text-foreground">VEGAH</span>
-            </Button>
+            </a>
           </div>
 
           <ThemeToggle />
 
-          {/* Mobile Menu Button */}
+          {/* Mobile Menu Button */}  
           <div className="md:hidden flex items-center gap-2">
             <button
               onClick={() => setIsOpen(!isOpen)}
