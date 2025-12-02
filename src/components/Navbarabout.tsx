@@ -19,7 +19,12 @@ export const Navbar = () => {
       <div className="container mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
           <div className="text-xl md:text-2xl font-bold tracking-tight">
-            <span className="text-foreground">VEGAH</span>
+            <Button
+              onClick={() => window.location.href = "/"}
+              className="text-primary-foreground text-xl font-semibold uppercase tracking-wider w-full"
+            >
+              <span className="text-foreground">VEGAH</span>
+            </Button>
           </div>
 
           <ThemeToggle />
@@ -38,7 +43,7 @@ export const Navbar = () => {
         {/* Mobile Menu */}
         {isOpen && (
           <div className="md:hidden mt-4 pb-6 flex flex-col gap-4">
-            
+
             <Button
               onClick={() => window.location.href = "/"}
               className="bg-primary hover:bg-primary/90 text-primary-foreground font-semibold uppercase tracking-wider w-full"
