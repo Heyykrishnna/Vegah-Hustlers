@@ -37,20 +37,20 @@ const teamMembers = [
     },
   },
   {
-    name: "Priyanshu Sharma",
-    role: "Frontend Dev & Researcher",
+    name: "Deveshi Sahu",
+    role: "Market Analyst & Research Specialist",
     image: member3,
-    skills: ["React", "Next.JS", "JavaScript", "GSAP", "Research"],
-    bio: "Frontend and research expert focused on seamless performance and innovation.",
+    skills: ["Python", "Data Handling", "Research", "Market Analysis"],
+    bio: "Hackathon Winner and Research expert focused on seamless performance and innovation.",
     social: {
-      github: "https://github.com/priyanshusharma99",
-      linkedin: "https://www.linkedin.com/in/priyanshu-sharma-7356b0380/",
-      email: "priyanshu.s25358@nst.rishihood.edu.in",
+      github: "/",
+      linkedin: "https://www.linkedin.com/in/deveshi-sahu-aa4645387/",
+      email: "deveshisahu1997@gmail.com",
     },
   },
   {
     name: "Vanshika Rajoria",
-    role: "Presenter",
+    role: "Presenter & UI/UX Designer",
     image: member4,
     skills: ['Engaging Presentation', 'Clear Communication', 'Audience Connection'],
     bio: "Dynamic presenter skilled in storytelling, clear communication, audience engagement and strong stage presence..",
@@ -74,7 +74,7 @@ const teamMembers = [
   },
   {
     name: "Ishita Neeraj Sharma",
-    role: "Coder, Presenter and PPT Designer",
+    role: "Coder, Presenter & PPT Designer",
     image: member4,
     skills: ["Debugging", "PPT Designing", "Communication", "Versatile"],
     bio: "A powerhouse of exceptional coding talent fused with a beautifully imaginative design mind.",
@@ -139,7 +139,7 @@ export const Team = () => {
           <span className="text-muted-foreground">[</span> MEET THE HUSTLERS{" "}
           <span className="text-muted-foreground">]</span>
         </h2>
-        
+
         <p className="text-lg text-muted-foreground mb-16 max-w-3xl">
           Five ambitious individuals united by passion for technology and drive to create impact.
         </p>
