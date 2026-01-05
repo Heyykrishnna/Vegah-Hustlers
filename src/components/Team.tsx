@@ -61,18 +61,6 @@ const teamMembers = [
     },
   },
   {
-    name: "Anurag Sonawane",
-    role: "AI Integrator",
-    image: member5,
-    skills: ["Rest API", "Python", "JavaScript", "OpenAI"],
-    bio: "Builds intelligent AI-driven systems that elevate user experiences.",
-    social: {
-      github: "https://github.com/EditHive",
-      linkedin: "https://www.linkedin.com/in/anurag-sonawane-981011380/",
-      email: "anurag.s25561@nst.rishihood.edu.in",
-    },
-  },
-  {
     name: "Ishita Neeraj Sharma",
     role: "Coder, Presenter & PPT Designer",
     image: member4,

@@ -8,12 +8,12 @@ gsap.registerPlugin(ScrollTrigger);
 
 const projects = [
   {
-    title: "QuizOasis",
+    title: "Elysiar",
     category: "AI / Education",
     description: "An AI-powered personalized learning platform that adapts to individual student needs using machine learning algorithms. Features include adaptive quizzes, real-time progress tracking, intelligent content recommendations, and multi-language support.",
     tech: ["Python", "TensorFlow", "React", "FastAPI", "PostgreSQL", "Redis", "TypeScript", "Node.JS", "Mongo.DB"],
     year: "2025",
-    demo: "https://quizoasis.vercel.app/",
+    demo: "https://elysiardev.vercel.app/",
     stats: "10K+ users • 95% satisfaction",
   },
   {
