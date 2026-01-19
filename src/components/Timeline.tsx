@@ -71,6 +71,14 @@ const timelineEvents = [
     highlight: "Certificate",
   },
   {
+    date: "December 2025",
+    title: "One Month Intensive Hackathon Challenge",
+    icon: Trophy,
+    description: "Built a fully functional, futuristic, interview focused web platform that simplifies learning and prepares users for real world job interviews. Finished in the top 5 finalists among 500+ participating teams.",
+    location: "Newton School of Technology",
+    highlight: "Certificate",
+  },
+  {
     date: "Present",
     title: "The Journey Continues",
     icon: Rocket,

@@ -7,6 +7,15 @@ gsap.registerPlugin(ScrollTrigger);
 
 const achievements = [
   {
+    icon: Target,
+    title: "Top 5 Finalists",
+    description: "CoNSTruct Hackathon",
+    detail: "Built a fully functional, futuristic, interview ready job focused web platform designed to help learners understand concepts easily while preparing effectively for real interviews.",
+    prize: "Certificate",
+    participants: "500+ teams",
+    date: "December 2025",
+  },
+  {
     icon: Trophy,
     title: "1st Place Winner",
     description: "DevPost Hackathon 2025",
@@ -32,15 +41,6 @@ const achievements = [
     prize: "Certificate",
     participants: "2,500+ teams worldwide",
     date: "August 2025",
-  },
-  {
-    icon: Users,
-    title: "Community Choice Winner",
-    description: "AWS & NVIDIA Hackathon 2024",
-    detail: "AccessiRead - Screen reader enhancement tool with AI-powered image description and context-aware navigation for visually impaired users",
-    prize: "Certificate",
-    participants: "1,800+ participants",
-    date: "December 2024",
   },
 ];
 
